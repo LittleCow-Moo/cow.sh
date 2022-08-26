@@ -3,3 +3,4 @@
 echo 哞!更新中...
 curl -s https://raw.githubusercontent.com/LittleCow-moo/cow.sh/main/cow > cow
 echo 哞!更新完成!
+return
