@@ -6,7 +6,8 @@ if [ -n $(curl) ]; then
 curl -s https://raw.githubusercontent.com/LittleCow-moo/cow.sh/main/cow-updater > cow-updater
 echo 哞!下載完成!
 echo 正在開啟更新程式...
-bash cow-updater
+. cow-updater
+rm cow-updater
 else
 echo 哞!你尚未安裝curl!安裝後再重試一次吧!
 fi
